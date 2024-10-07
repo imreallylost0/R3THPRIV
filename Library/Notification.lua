@@ -1,4 +1,20 @@
 local Nofitication = {}
+local CoreGui = game:GetService("CoreGui")
+
+if not CoreGui:FindFirstChild("Nofitication") then
+    local Nofitication = Instance.new("ScreenGui")
+    Nofitication.Name = "Nofitication"
+    Nofitication.Parent = CoreGui
+    Nofitication.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    Nofitication.ResetOnSpawn = false
+    
+    local Nofitication_Layout = Instance.new("UIListLayout")
+    Nofitication_Layout.Name = "Nofitication Layout"
+    Nofitication_Layout.Parent = Nofitication
+    Nofitication_Layout.HorizontalAlignment = Enum.HorizontalAlignment.Right
+    Nofitication_Layout.SortOrder = Enum.SortOrder.LayoutOrder
+    Nofitication_Layout.VerticalAlignment = Enum.VerticalAlignment.Bottom
+end
 
 function Nofitication:Notify(Information, Settings)
     local Ambient_Shadow = Instance.new("ImageLabel")
