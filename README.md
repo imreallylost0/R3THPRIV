@@ -1,3 +1,5 @@
+**We're currently remaking the script, so there’s no Discord server at the moment. In the meantime, if you have any questions, feel free to add Pethicial on Discord.**
+
 # R3TH PRIV
 Welcome to the official repository for R3TH PRIV, a comprehensive project with a variety of tools, features, and resources to improve your experience. This repository contains all of the necessary code, documentation, and updates to get you started and keep you up to date on the latest developments.
 
