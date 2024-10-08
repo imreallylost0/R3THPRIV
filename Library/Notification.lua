@@ -24,7 +24,7 @@ function Nofitication:Notify(Information, Settings)
     local Description = Instance.new("TextLabel")
     
     Ambient_Shadow.Name = "Ambient Shadow"
-    Ambient_Shadow.Parent = game:GetService("CoreGui"):FindFirstChild("Nofitication")
+    Ambient_Shadow.Parent = CoreGui:FindFirstChild("Nofitication")
     Ambient_Shadow.AnchorPoint = Vector2.new(0.5, 0.5)
     Ambient_Shadow.BackgroundTransparency = 1
     Ambient_Shadow.BorderSizePixel = 0
